@@ -16,7 +16,7 @@ class UsersTableSeeder extends Seeder
             'name' => 'Arfian Dimas Andi Permana',
             'email' => 'arfiandimas1929@gmail.com',
             'email_verified_at' => now(),
-            'password' => bcrypt('secret'),
+            'password' => bcrypt('arfiandimas1929'),
             'role' => 0
         ]);
     }
